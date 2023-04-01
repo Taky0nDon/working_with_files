@@ -4,14 +4,15 @@ print(f"The current directory is {home}")
 change = input("Do you wish to change it? y/n: ")
 make_sure = 0
 if change == 'y':
-    scan = input("Do you want to scan for a new directory? y/n: ")
-    if scan == 'y':
-        path1 = "C:/"
-        system('dir {path1}')
-        next = input("Choose another fold to scan? y/n: ")
-        if next == 'y':
-            next_dir = input("Enter the directory to scan")
-            system('dir {path+"next_dir"}')
+    #this doesnt work
+    # scan = input("Do you want to scan for a new directory? y/n: ")
+    # if scan == 'y':
+    #     path1 = "C:/"
+    #     system('dir {path1}')
+    #     next = input("Choose another fold to scan? y/n: ")
+    #     if next == 'y':
+    #         next_dir = input("Enter the directory to scan")
+    #         system('dir {path+"next_dir"}')
 
     while make_sure != 'y':
         new_dir = input("Enter the correct directory: ")
