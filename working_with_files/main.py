@@ -7,11 +7,11 @@ if change == 'y':
     scan = input("Do you want to scan for a new directory? y/n: ")
     if scan == 'y':
         path1 = "C:/"
-        system('ls {path1}')
+        system('dir {path1}')
         next = input("Choose another fold to scan? y/n: ")
         if next == 'y':
             next_dir = input("Enter the directory to scan")
-            system('ls {path+"next_dir"}')
+            system('dir {path+"next_dir"}')
 
     while make_sure != 'y':
         new_dir = input("Enter the correct directory: ")
