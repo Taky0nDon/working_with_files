@@ -1,4 +1,4 @@
-import os
+from os import system
 home = "C:\\Users\\Mourn\\100_days_of_code"
 print(f"The current directory is {home}")
 change = input("Do you wish to change it? y/n: ")
